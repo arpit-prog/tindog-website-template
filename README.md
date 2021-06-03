@@ -1,1 +1,1 @@
-# tindog-website-template
+TinDog Starting Files
