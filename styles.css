@@ -1,0 +1,172 @@
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Montserrat-white';
+  font-size: 4rem;
+  line-height: 1;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  /* text-decoration-color: #fff; */
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+.button-shape {
+  margin: 5% 2% 5% 0;
+}
+
+.nav-link {
+  font-family: 'Montserrat-light';
+  color:  #fff;
+  font-size: 1.5rem;
+  /* font-weight:  */
+}
+
+.style-image {
+  width: 60%;
+  position: absolute;
+  right: 30%;
+  /* z-index: 1; */
+  transform: rotate(25deg);
+}
+
+/* #######feature section#### */
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.features-box {
+  padding: 4.5%;
+  text-align: center;
+  /* font-family: 'Montserrat-bold'; */
+  /* font-size: 1.5rem; */
+}
+
+h3 {
+  font-family: 'Montserrat';
+  font-size: 2.0rem;
+  font-weight: bold;
+}
+
+/* ###################### media query for certain condition for interface for laptop mobile desktop ########## */
+@media (max-width: 1284px) {
+
+  /* #title{
+    text-align: center; */
+  /* } */
+  .style-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.fas {
+  size: 4px;
+}
+
+.icon {
+  color: #ef8172;
+}
+
+/* ####if cursor point then color will bright */
+.icon:hover {
+  color: #ff4c68;
+}.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  /* padding:5% 15%; */
+  font-family: "Montserrat";
+  line-height: 1rem;
+  font-weight: bold;
+  text-align: center;
+  background-color: #ff4c68;
+}
+
+h2 {
+  color: #fff;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+.testimage {
+  width: 15%;
+  border-radius: 100%;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+}
+
+#press {
+  /* padding :7%; */
+  padding-left: 20%;
+  padding-bottom: 5%;
+  background-color: #ff4c68;
+}
+
+.press_logo {
+  width: 15%;
+  margin: 20px 20px 15px 10px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+.pricing-col {
+  padding: 5% 3%;
+  text-align: center;
+
+}
+/* ###### cta section last### */
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 20%;
+  text-align: center;
+}
+.cta-heading{
+  padding: 0 10%;
+  font-family: "Montserrat white";
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+/* ########footer section ####### */
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.footicon{
+  margin : 0 1% 0;
+  padding-bottom: 3%;
+}
+
+
+.footicon:hover {
+  color: #ff4c68;
+}
